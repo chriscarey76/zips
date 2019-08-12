@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.streaminggods" name="Streaming Gods Repo" version="1.0.0" provider-name="Streaming Gods">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+		<extension point="xbmc.addon.repository" name="Streaming Gods Repository">
+			<info compressed="false">https://raw.githubusercontent.com/chriscarey76/repo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/chriscarey76/repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/chriscarey76/zips/master/addons/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Streaming Gods Repository!</summary>
+			<description>Streaming Gods Repository!</description>
+			<disclaimer>All Add-Ons Within This Repo Are Supplied/Created And/Or Modified By 3rd Party Developers</disclaimer>
+			<platform>all</platform>
+		</extension>
+</addon>

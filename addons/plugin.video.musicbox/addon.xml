@@ -1,0 +1,49 @@
+<addon id="plugin.video.MusicBox" name="[COLORblue]Music[/COLOR] [COLORwhite]Box[/COLOR]" version="1.0.0"provider-name="[COLORblue]Car3t4ker[/COLOR][COLORwhite]Project[/COLOR]">
+
+<requires>
+
+<import addon="xbmc.python" version="2.1.0"/>
+
+<import addon="script.module.beautifulsoup" version="3.2.1"/>
+
+<import addon="script.module.simple.downloader" version="0.9.4"/>
+
+<import addon="script.module.beautifulsoup4"/>
+
+<import addon="script.module.simple.downloader" version="0.9.4"/>
+
+<import addon="script.module.requests"/>
+
+<import addon="script.module.httplib2"/>
+
+<import addon="script.module.youtube.dl" optional="true"/>
+
+<import addon="plugin.video.youtube"/>
+
+<import addon="script.module.urlresolver" optional="true"/>
+
+<import addon="script.module.simplejson"/>
+
+</requires>
+
+<extension point="xbmc.python.pluginsource" library="default.py">
+
+<provides>audio video</provides>
+
+</extension>
+
+<extension point="xbmc.addon.metadata">
+
+<summary>A MUSIC SOURCE FOR ALL</summary>
+
+<description>
+
+A one stop shop for all music needs brought to you by [COLORblue]Car3t4ker[/COLOR],Formerly The-Music-Source so big thanks to Matt for this..
+
+</description>
+
+<platform>all</platform>
+
+</extension>
+
+</addon>
